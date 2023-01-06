@@ -1,0 +1,108 @@
+header{
+    background-color: #FFD900;
+    padding: 15px;
+}
+
+.logo{
+    width: 150px;
+    padding: 7px;
+    padding-left: 30px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50vw;
+    align-items: center;
+    text-align: center;
+}
+
+.epico{
+    background-color: #514988;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 550px;
+    color: white;
+}
+
+.epico h1{
+    color: #F3C61F;
+     font-size: 50px; 
+}
+
+.epico h2{
+    padding-bottom: 40px;
+}
+
+.epico h3{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.countdown{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 10vw;
+    position: absolute;
+    width: 239px;
+    height: 200px;
+    left: 860px;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 65px;
+    color: #514988;
+}
+
+#tempo{
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-top: 100px;
+    color: #E33381;
+}
+
+#arlequina{
+    width: 700px;
+    padding-top: 15px;
+    margin-left: 5px;
+}
+
+footer{
+    background-color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F3C61F;
+    font-weight: 700;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 40vw;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 19px;
+}
+
+.ingresso{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 15px;
+}
+
+button{
+    background-color: #514988;
+    color: #FFFFFF;
+    margin: 10px;
+    width: 400px;
+    height: 120px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 85px;
+    margin-left: 330px;
+    border-radius: 20px;
+    border-style: none;
+    font-style: normal;
+}
+
+button:hover{
+    background-color: #FFD900;
+    color:#514988;
+}
